@@ -42,4 +42,6 @@ def run_game():
                 #redraw the screen during each pass through the loop
                 gft.update_aliens(ai_settings,stats,sb,screen,ship,aliens,bullets)
             gft.update_screen(ai_settings,screen,stats,sb,ship,aliens,bullets,play_button)
+
+
 run_game()
