@@ -198,7 +198,7 @@ def ship_hit(ai_settings,stats,sb,screen,ship,aliens,bullets):
         #ai_settings.alien_speed_factor+=0.1
         #ai_settings.bullet_speed_factor+=0.1
         #pause
-        sleep(0.5)
+        time.sleep(0.5)
     else:
         stats.game_active=False
         pygame.mouse.set_visible(True)
